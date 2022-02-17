@@ -11,7 +11,7 @@ function App() {
     <Route exact path="/">
       <Home/>
     </Route>
-    <Route path="/movies/:id" children={<Movie/>} /> {/*By default movie is called it url doesnt*/}
+    <Route path="/movies/:id" children={<Movie/>} /> 
   </Switch>
   </BrowserRouter>
   </div>
